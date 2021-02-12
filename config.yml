@@ -5,9 +5,9 @@ template:
   repo: test-course-template
   name: test-course
 before:
-  - type: createIssue
+  - typ: createIssue
     title: Welcome!
-    body: new-isssue.md
+    body: new-issue.md
 steps:
   - title: First step
     description: The first step in your course
